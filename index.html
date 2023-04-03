@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="icon/css/all.min.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <nav
+        class="smenu 2xl: w-full 2xl:bg-[#ffffff] 2xl:h-[85px] 2xl:flex 2xl:flex-row 2xl:gap-1 2xl:items-center 2xl:justify-center"
+      >
+        <div
+          class="2xl:flex 2xl:flex-row 2xl:flex-1 2xl:ps-20 2xl:gap-6 2xl:relative"
+        >
+          <div class="2xl:text-[18px] dropdown 2xl:block">
+            <a
+              href="#"
+              class="2xl:text-[black] 2xl:hover:text-[19px] 2xl:hover:text-[#a19e9e]"
+              ><i class="fas fa-bars"></i
+            ></a>
+            <div
+              class="submenu 2xl:w-[1530px] 2xl:h-[550px] 2xl:absolute 2xl:hidden 2xl:left-[2px] 2xl:top-[60px] 2xl:bg-red-400 flex-row"
+            >
+              <div class="main 2xl:bg-amber-300 2xl:grow-[1]">df</div>
+              <div class="main-2 2xl:bg-neutral-700 2xl:grow-[5]">fsf</div>
+            </div>
+          </div>
+          <a
+            href=""
+            class="2xl:text-[black] 2xl:no-underline 2xl:hover:text-[lightgray]"
+          >
+            <div class="2xl:text-[18px]"><i class="far fa-user"></i></div
+          ></a>
+          <a
+            href=""
+            class="2xl:text-[black] 2xl:no-underline 2xl:hover:text-[#a19e9e]"
+            ><div>Our story</div></a
+          >
+          <a
+            href=""
+            class="2xl:text-[black] 2xl:no-underline 2xl:hover:text-[lightgray]"
+            ><div>Join us</div></a
+          >
+        </div>
+        <div class="2xl:flex-1 2xl:ps-20">
+          <img src="./image/svgexport-4.svg" alt="" />
+        </div>
+        <div class="2xl:flex-1 2xl:relative">
+          <div class="2xl:flex 2xl:flex-row 2xl:flex-wrap 2xl:justify-center">
+            <span
+              class="2xl:absolute 2xl:bottom-[10px] 2xl:ps-[10px] 2xl:left-28 2xl:text-[gray] 2xl:text-[17px]"
+            >
+              <i class="fas fa-search"></i
+            ></span>
+            <input
+              style="font-family: oriflamefont"
+              class="search 2xl:block 2xl:h-[40px] 2xl:w-[200px] 2xl:ps-[35px] 2xl:shadow-md"
+              type="text"
+              placeholder="Search.."
+              name="search"
+            />
+          </div>
+          <div>
+            <a
+              class="2xl:no-underline 2xl:text-[black] 2xl:text-[19px] 2xl:hover:text-[#a19e9e]"
+              href=""
+              ><i
+                class="fas fa-shopping-bag 2xl:absolute 2xl:right-14 2xl:bottom-[10px]"
+              ></i
+            ></a>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script>
+      let smenu = document.querySelector("nav.smenu>div>div.dropdown");
+      console.log(smenu);
+      let submenu = document.querySelector("div.submenu");
+      console.log(submenu);
+      let flag = true;
+      smenu.addEventListener("click", function () {
+        if (flag === true) {
+          submenu.style.display = "flex";
+          flag = false;
+        } else {
+          submenu.style.display = "none";
+          flag = true;
+        }
+      });
+    </script>
+  </body>
+</html>
