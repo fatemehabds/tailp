@@ -7,8 +7,8 @@
 }
 @font-face {
   font-family: oriflamefont;
-  src: url(../font/ZTGatha-SemiBold.otf);
-  src: url(../font/ZTGatha-SemiBold.ttf);
+  /* src: url(../font/SofiaSansCondensed-Italic-VariableFont_wght.ttf); */
+  src: url(../font/SofiaSansCondensed-VariableFont_wght.ttf);
 }
 body {
   font-family: oriflamefont;
@@ -25,4 +25,7 @@ input.search {
 .submenu {
   border-top: 2px solid rgb(196, 195, 195);
   flex-flow: row;
+}
+div > li.title2:hover > div.catalogue {
+  display: flex;
 }
