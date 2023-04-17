@@ -23,9 +23,12 @@ input.search {
   -o-border-radius: 15px;
 }
 .submenu {
-  border-top: 2px solid rgb(196, 195, 195);
+  z-index: 1;
   flex-flow: row;
 }
 div > li.title2:hover > div.catalogue {
+  visibility: visible;
+}
+div.catalogue {
   display: flex;
 }

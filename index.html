@@ -11,7 +11,7 @@
   <body>
     <div class="wrapper">
       <nav
-        class="smenu 2xl: w-full 2xl:bg-[#ffffff] 2xl:h-[85px] 2xl:flex 2xl:flex-row 2xl:gap-1 2xl:items-center 2xl:justify-center"
+        class="smenu sticky top-[0] z-[1] 2xl: w-full 2xl:bg-[#ffffff] 2xl:h-[85px] 2xl:flex 2xl:flex-row 2xl:gap-1 2xl:items-center 2xl:justify-center "
       >
         <div
           class="2xl:flex 2xl:flex-row 2xl:flex-1 2xl:ps-20 2xl:gap-6 2xl:relative"
@@ -23,29 +23,29 @@
               ><i class="fas fa-bars"></i
             ></a>
             <div
-              class="submenu 2xl:w-[1500px] 2xl:h-[570px] 2xl:absolute 2xl:hidden 2xl:left-[2px] 2xl:top-[60px] flex-row"
+              class="submenu 2xl:bg-[#ffffff] 2xl:w-[1500px] 2xl:h-[580px] 2xl:absolute 2xl:hidden 2xl:left-[2px] 2xl:top-[55px] flex-row"
             >
               <div
                 class="main 2xl:grow-[1] flex flex-col 2xl:font-[600] text-[20px] text-[black]"
               >
-                <li class="list-none title">
+                <li class="list-none title 2xl:w-[200px]">
                   <a
                     href=""
-                    class="2xl:grow 2xl:capitalize 2xl:no-underline 2xl:text-[black] transition-all duration-300 2xl:ps-5 2xl:pt-3 2xl:block hover:bg-zinc-200"
+                    class="2xl:grow 2xl:capitalize 2xl:no-underline 2xl:text-[black]  2xl:ps-5 2xl:pt-3 2xl:block hover:bg-zinc-200"
                   >
                     best offers</a
                   >
                 </li>
 
-                <li class="list-none title2">
+                <li class="list-none title2 2xl:w-[200px]">
                   <a
                     href=""
-                    class="2xl:grow 2xl:no-underline 2xl:text-[black] transition-all duration-300 2xl:ps-5 2xl:pt-3 2xl:block hover:bg-zinc-200"
+                    class="2xl:grow 2xl:no-underline 2xl:text-[black]  2xl:ps-5 2xl:pt-3 2xl:block hover:bg-zinc-200"
                   >
                     eCatalogue</a
                   >
                   <div
-                    class="2xl:absolute 2xl:w-[1250px] 2xl:h-[570px] 2xl:right-[0px] 2xl:top-[0px] catalogue 2xl:justify-center 2xl:items-center 2xl:flex-row 2xl:hidden"
+                    class="2xl:absolute 2xl:w-[1250px] 2xl:h-[570px] 2xl:right-[0px] 2xl:top-[0px] catalogue 2xl:justify-center 2xl:items-center 2xl:flex-row 2xl:invisible flex"
                   >
                     <div
                       class="2xl:flex 2xl:items-center 2xl:justify-center 2xl:flex-col"
@@ -69,15 +69,15 @@
                     </div>
                   </div>
                 </li>
-                <li class="2xl:list-none title2">
+                <li class="2xl:list-none title2 2xl:w-[200px] ">
                   <a
                     href=""
-                    class="2xl:grow 2xl:no-underline capitalize 2xl:text-[black] transition-all duration-300 2xl:ps-5 2xl:pt-3 2xl:block hover:bg-zinc-200"
+                    class="2xl:grow 2xl:no-underline capitalize 2xl:text-[black]  2xl:ps-5 2xl:pt-3 2xl:block hover:bg-zinc-200"
                   >
                     inspiration</a
                   >
                   <div
-                    class="2xl:absolute 2xl:w-[1250px] 2xl:h-[570px] 2xl:right-[0px] 2xl:top-[0px] catalogue 2xl:justify-center 2xl:items-center 2xl:flex-row 2xl:hidden"
+                    class="2xl:absolute 2xl:w-[1250px] 2xl:h-[570px] 2xl:right-[0px] 2xl:top-[0px] catalogue 2xl:justify-center 2xl:items-center 2xl:flex-row 2xl:invisible 2xl:flex"
                   >
                     <div
                       class="2xl:flex 2xl:items-center 2xl:justify-center 2xl:flex-col"
@@ -104,15 +104,15 @@
                     </div>
                   </div>
                 </li>
-                <li class="2xl:list-none title2">
+                <li class="2xl:list-none title2 2xl:w-[200px]">
                   <a
                     href=""
-                    class="2xl:grow 2xl:no-underline capitalize 2xl:text-[black] transition-all duration-300 2xl:ps-5 2xl:pt-3 2xl:block hover:bg-zinc-200"
+                    class="2xl:grow 2xl:no-underline capitalize 2xl:text-[black]  2xl:ps-5 2xl:pt-3 2xl:block hover:bg-zinc-200"
                   >
                     skin care</a
                   >
                   <div
-                    class="2xl:absolute 2xl:w-[1250px] 2xl:h-[570px] 2xl:right-[0px] 2xl:top-[0px] catalogue 2xl:flex-row 2xl:gap-2 hidden"
+                    class="2xl:absolute 2xl:w-[1250px] 2xl:h-[570px] 2xl:right-[0px] 2xl:top-[0px] catalogue 2xl:flex-row 2xl:gap-2 invisible 2xl:flex"
                   >
                     <div class="2xl:h-full 2xl:w-[200px]">
                       <a
@@ -132,16 +132,16 @@
                       >
                       <a
                         href=""
-                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 transition-all duration-300 hover:text-[#626060] hover:font-bold"
+                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3  hover:text-[#626060] hover:font-bold"
                         >Day cream</a
                       >
                       <a
                         href=""
-                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 transition-all duration-300 hover:text-[#626060] hover:font-bold"
+                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3  hover:text-[#626060] hover:font-bold"
                         >Night cream</a
                       ><a
                         href=""
-                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-6 transition-all duration-300 hover:text-[#626060] hover:font-bold"
+                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-6  hover:text-[#626060] hover:font-bold"
                         >BB & CC cream</a
                       >
                       <a
@@ -151,22 +151,22 @@
                       </a>
                       <a
                         href=""
-                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 transition-all duration-300 hover:text-[#626060] hover:font-bold"
+                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3  hover:text-[#626060] hover:font-bold"
                         >Serum & Booster</a
                       >
                       <a
                         href=""
-                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 transition-all duration-300 hover:text-[#626060] hover:font-bold"
+                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3  hover:text-[#626060] hover:font-bold"
                         >Exfoliator</a
                       >
                       <a
                         href=""
-                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 transition-all duration-300 hover:text-[#626060] hover:font-bold"
+                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3  hover:text-[#626060] hover:font-bold"
                         >Acne & Blemish</a
                       >
                       <a
                         href=""
-                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 transition-all duration-300 hover:text-[#626060] hover:font-bold"
+                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3  hover:text-[#626060] hover:font-bold"
                         >Neck & Décolletage</a
                       >
                     </div>
@@ -178,12 +178,12 @@
                       >
                       <a
                         href=""
-                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 transition-all duration-300 hover:text-[#626060] hover:font-bold"
+                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3  hover:text-[#626060] hover:font-bold"
                         >Eye creams</a
                       >
                       <a
                         href=""
-                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 transition-all duration-300 hover:text-[#626060] hover:font-bold"
+                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3  hover:text-[#626060] hover:font-bold"
                         >Lip care</a
                       >
                       <a
@@ -193,12 +193,12 @@
                       >
                       <a
                         href=""
-                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 transition-all duration-300 hover:text-[#626060] hover:font-bold"
+                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3  hover:text-[#626060] hover:font-bold"
                         >Cleaners</a
                       >
                       <a
                         href=""
-                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 2xl:transition-all duration-300 hover:text-[#626060] hover:font-bold"
+                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 2xl: hover:text-[#626060] hover:font-bold"
                         >Make-up remover</a
                       >
                       <a
@@ -208,12 +208,12 @@
                       >
                       <a
                         href=""
-                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 transition-all duration-300 hover:text-[#626060] hover:font-bold"
+                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3  hover:text-[#626060] hover:font-bold"
                         >Sheet masks</a
                       >
                       <a
                         href=""
-                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 2xl:transition-all duration-300 hover:text-[#626060] hover:font-bold"
+                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 2xl: hover:text-[#626060] hover:font-bold"
                         >Other masks</a
                       >
                     </div>
@@ -225,17 +225,17 @@
                       >
                       <a
                         href=""
-                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 transition-all duration-300 hover:text-[#626060] hover:font-bold"
+                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3  hover:text-[#626060] hover:font-bold"
                         >Face sun cream</a
                       >
                       <a
                         href=""
-                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 2xl:transition-all duration-300 hover:text-[#626060] hover:font-bold"
+                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 2xl: hover:text-[#626060] hover:font-bold"
                         >Sunscreen</a
                       >
                       <a
                         href=""
-                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 2xl:transition-all duration-300 hover:text-[#626060] hover:font-bold"
+                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 2xl: hover:text-[#626060] hover:font-bold"
                         >After sun & Self-taning</a
                       >
                       <a
@@ -260,43 +260,43 @@
                       >
                       <a
                         href=""
-                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 transition-all duration-300 hover:text-[#626060] hover:font-bold"
+                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3  hover:text-[#626060] hover:font-bold"
                         >Novage+</a
                       >
                       <a
                         href=""
-                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 2xl:transition-all duration-300 hover:text-[#626060] hover:font-bold"
+                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 2xl: hover:text-[#626060] hover:font-bold"
                         >Waunt</a
                       >
                       <a
                         href=""
-                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 2xl:transition-all duration-300 hover:text-[#626060] hover:font-bold"
+                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 2xl: hover:text-[#626060] hover:font-bold"
                         >Love Nature</a
                       ><a
                         href=""
-                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 2xl:transition-all duration-300 hover:text-[#626060] hover:font-bold"
+                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 2xl: hover:text-[#626060] hover:font-bold"
                         >Optimals</a
                       ><a
                         href=""
-                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 2xl:transition-all duration-300 hover:text-[#626060] hover:font-bold"
+                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 2xl: hover:text-[#626060] hover:font-bold"
                         >Royal Velvet</a
                       ><a
                         href=""
-                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 2xl:transition-all duration-300 hover:text-[#626060] hover:font-bold"
+                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 2xl: hover:text-[#626060] hover:font-bold"
                         >Sun 360</a
                       >
                     </div>
                   </div>
                 </li>
-                <li class="2xl:list-none title2">
+                <li class="2xl:list-none title2 2xl:w-[200px]">
                   <a
                     href=""
-                    class="2xl:grow 2xl:no-underline capitalize 2xl:text-[black] transition-all duration-300 2xl:ps-5 2xl:pt-3 2xl:block hover:bg-zinc-200"
+                    class="2xl:grow 2xl:no-underline capitalize 2xl:text-[black]  2xl:ps-5 2xl:pt-3 2xl:block hover:bg-zinc-200"
                   >
                     Make-Up</a
                   >
                   <div
-                    class="2xl:absolute 2xl:w-[1250px] 2xl:h-[570px] 2xl:right-[0px] 2xl:top-[0px] catalogue 2xl:flex-row 2xl:gap-2 hidden"
+                    class="2xl:absolute 2xl:w-[1250px] 2xl:h-[570px] 2xl:right-[0px] 2xl:top-[0px] 2xl:flex catalogue 2xl:flex-row 2xl:gap-2 invisible"
                   >
                     <div class="2xl:h-full 2xl:w-[200px]">
                       <a
@@ -316,37 +316,37 @@
                       >
                       <a
                         href=""
-                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 transition-all duration-300 hover:text-[#626060] hover:font-bold"
+                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3  hover:text-[#626060] hover:font-bold"
                         >foundation</a
                       >
                       <a
                         href=""
-                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 transition-all duration-300 hover:text-[#626060] hover:font-bold"
+                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3  hover:text-[#626060] hover:font-bold"
                         >Concealer & Corrector</a
                       ><a
                         href=""
-                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 transition-all duration-300 hover:text-[#626060] hover:font-bold"
+                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3  hover:text-[#626060] hover:font-bold"
                         >powder</a
                       >
 
                       <a
                         href=""
-                        class="2xl:no-underline 2xl:text-[#3c3b3b] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 transition-all duration-300 hover:text-[#626060] hover:font-bold"
+                        class="2xl:no-underline 2xl:text-[#3c3b3b] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3  hover:text-[#626060] hover:font-bold"
                         >Contour & Highlighter</a
                       >
                       <a
                         href=""
-                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 transition-all duration-300 hover:text-[#626060] hover:font-bold"
+                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3  hover:text-[#626060] hover:font-bold"
                         >Blush & Bronzer
                       </a>
                       <a
                         href=""
-                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 transition-all duration-300 hover:text-[#626060] hover:font-bold"
+                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3  hover:text-[#626060] hover:font-bold"
                         >BB & CC cream</a
                       >
                       <a
                         href=""
-                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 transition-all duration-300 hover:text-[#626060] hover:font-bold"
+                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3  hover:text-[#626060] hover:font-bold"
                         >Prime & Setting mist</a
                       >
                     </div>
@@ -358,29 +358,29 @@
                       >
                       <a
                         href=""
-                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 transition-all duration-300 hover:text-[#626060] hover:font-bold"
+                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3  hover:text-[#626060] hover:font-bold"
                         >Mascara</a
                       >
                       <a
                         href=""
-                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 transition-all duration-300 hover:text-[#626060] hover:font-bold"
+                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3  hover:text-[#626060] hover:font-bold"
                         >Eyeliner</a
                       >
 
                       <a
                         href=""
-                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 transition-all duration-300 hover:text-[#626060] hover:font-bold"
+                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3  hover:text-[#626060] hover:font-bold"
                         >Eyeshadow</a
                       >
                       <a
                         href=""
-                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 2xl:transition-all duration-300 hover:text-[#626060] hover:font-bold"
+                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 2xl: hover:text-[#626060] hover:font-bold"
                         >Eyebrows</a
                       >
 
                       <a
                         href=""
-                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 transition-all duration-300 hover:text-[#626060] hover:font-bold"
+                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3  hover:text-[#626060] hover:font-bold"
                         >Eye make-up Remover</a
                       >
                       <a
@@ -390,20 +390,20 @@
                       >
                       <a
                         href=""
-                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 2xl:transition-all duration-300 hover:text-[#626060] hover:font-bold"
+                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 2xl: hover:text-[#626060] hover:font-bold"
                         >Lipstick</a
                       >
                       <a
                         href=""
-                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 2xl:transition-all duration-300 hover:text-[#626060] hover:font-bold"
+                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 2xl: hover:text-[#626060] hover:font-bold"
                         >Lip gloss</a
                       ><a
                         href=""
-                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 2xl:transition-all duration-300 hover:text-[#626060] hover:font-bold"
+                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 2xl: hover:text-[#626060] hover:font-bold"
                         >Lip liner</a
                       ><a
                         href=""
-                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 2xl:transition-all duration-300 hover:text-[#626060] hover:font-bold"
+                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 2xl: hover:text-[#626060] hover:font-bold"
                         >Lip care</a
                       >
                     </div>
@@ -415,22 +415,22 @@
                       >
                       <a
                         href=""
-                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 transition-all duration-300 hover:text-[#626060] hover:font-bold"
+                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3  hover:text-[#626060] hover:font-bold"
                         >Nail polish</a
                       >
                       <a
                         href=""
-                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 2xl:transition-all duration-300 hover:text-[#626060] hover:font-bold"
+                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 2xl: hover:text-[#626060] hover:font-bold"
                         >Base & Topcat</a
                       >
                       <a
                         href=""
-                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 2xl:transition-all duration-300 hover:text-[#626060] hover:font-bold"
+                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 2xl: hover:text-[#626060] hover:font-bold"
                         >Nail care</a
                       >
                       <a
                         href=""
-                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 2xl:transition-all duration-300 hover:text-[#626060] hover:font-bold"
+                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 2xl: hover:text-[#626060] hover:font-bold"
                         >Nail Polish remover</a
                       >
                       <a
@@ -440,13 +440,13 @@
                       >
                       <a
                         href=""
-                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 2xl:transition-all duration-300 hover:text-[#626060] hover:font-bold"
+                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 2xl: hover:text-[#626060] hover:font-bold"
                       >
                         Brushes & Applicators</a
                       >
                       <a
                         href=""
-                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 2xl:transition-all duration-300 hover:text-[#626060] hover:font-bold"
+                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 2xl: hover:text-[#626060] hover:font-bold"
                         >Other make-up tools</a
                       >
                       <a
@@ -463,31 +463,31 @@
                       >
                       <a
                         href=""
-                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 transition-all duration-300 hover:text-[#626060] hover:font-bold"
+                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3  hover:text-[#626060] hover:font-bold"
                         >THE ONE</a
                       >
                       <a
                         href=""
-                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 2xl:transition-all duration-300 hover:text-[#626060] hover:font-bold"
+                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 2xl: hover:text-[#626060] hover:font-bold"
                         >Giordani Gold</a
                       >
                       <a
                         href=""
-                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 2xl:transition-all duration-300 hover:text-[#626060] hover:font-bold"
+                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 2xl: hover:text-[#626060] hover:font-bold"
                         >OneColour</a
                       >
                     </div>
                   </div>
                 </li>
-                <li class="2xl:list-none title2">
+                <li class="2xl:list-none title2 2xl:w-[200px]">
                   <a
                     href=""
-                    class="2xl:grow 2xl:no-underline capitalize 2xl:text-[black] transition-all duration-300 2xl:ps-5 2xl:pt-3 2xl:block hover:bg-zinc-200"
+                    class="2xl:grow 2xl:no-underline capitalize 2xl:text-[black]  2xl:ps-5 2xl:pt-3 2xl:block hover:bg-zinc-200"
                   >
                     Fragrance</a
                   >
                   <div
-                    class="2xl:absolute 2xl:w-[1250px] 2xl:h-[570px] 2xl:right-[0px] 2xl:top-[0px] catalogue 2xl:flex-row 2xl:gap-2 hidden"
+                    class="2xl:absolute 2xl:w-[1250px] 2xl:h-[570px] 2xl:right-[0px] 2xl:top-[0px] 2xl:flex catalogue 2xl:flex-row 2xl:gap-2 invisible"
                   >
                     <div class="2xl:h-full 2xl:w-[200px]">
                       <a
@@ -507,22 +507,22 @@
                       >
                       <a
                         href=""
-                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 transition-all duration-300 hover:text-[#626060] hover:font-bold"
+                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3  hover:text-[#626060] hover:font-bold"
                         >Fragrance</a
                       >
                       <a
                         href=""
-                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 transition-all duration-300 hover:text-[#626060] hover:font-bold"
+                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3  hover:text-[#626060] hover:font-bold"
                         >Body Care</a
                       ><a
                         href=""
-                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 transition-all duration-300 hover:text-[#626060] hover:font-bold"
+                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3  hover:text-[#626060] hover:font-bold"
                         >Body spray & Deodorant</a
                       >
 
                       <a
                         href=""
-                        class="2xl:no-underline 2xl:text-[#3c3b3b] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 transition-all duration-300 hover:text-[#626060] hover:font-bold"
+                        class="2xl:no-underline 2xl:text-[#3c3b3b] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3  hover:text-[#626060] hover:font-bold"
                         >Gift set & Purse spray</a
                       >
                       <a
@@ -532,12 +532,12 @@
                       >
                       <a
                         href=""
-                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 transition-all duration-300 hover:text-[#626060] hover:font-bold"
+                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3  hover:text-[#626060] hover:font-bold"
                         >Fragrance
                       </a>
                       <a
                         href=""
-                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 transition-all duration-300 hover:text-[#626060] hover:font-bold"
+                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3  hover:text-[#626060] hover:font-bold"
                         >Body spray & Deodorant</a
                       >
                     </div>
@@ -549,32 +549,32 @@
                       >
                       <a
                         href=""
-                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 transition-all duration-300 hover:text-[#626060] hover:font-bold"
+                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3  hover:text-[#626060] hover:font-bold"
                         >Eclat</a
                       >
                       <a
                         href=""
-                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 transition-all duration-300 hover:text-[#626060] hover:font-bold"
+                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3  hover:text-[#626060] hover:font-bold"
                         >Giordani Gold</a
                       >
 
                       <a
                         href=""
-                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 transition-all duration-300 hover:text-[#626060] hover:font-bold"
+                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3  hover:text-[#626060] hover:font-bold"
                         >Giordani Man</a
                       >
                      
                   </div>
                 </li>
-                <li class="2xl:list-none title2">
+                <li class="2xl:list-none title2 2xl:w-[200px]">
                   <a
                     href=""
-                    class="2xl:grow 2xl:no-underline capitalize 2xl:text-[black] transition-all duration-300 2xl:ps-5 2xl:pt-3 2xl:block hover:bg-zinc-200"
+                    class="2xl:grow 2xl:no-underline capitalize 2xl:text-[black]  2xl:ps-5 2xl:pt-3 2xl:block hover:bg-zinc-200"
                   >
                     Bath & Body</a
                   >
                   <div
-                    class="2xl:absolute 2xl:w-[1250px] 2xl:h-[570px]  2xl:right-[0px] 2xl:top-[0px] catalogue 2xl:flex-row 2xl:gap-2 hidden"
+                    class="2xl:absolute 2xl:w-[1250px] 2xl:h-[570px]  2xl:right-[0px] 2xl:top-[0px] catalogue 2xl:flex-row 2xl:gap-2 invisible"
                   >
                     <div class="2xl:h-full 2xl:w-[200px]">
                       <a
@@ -594,22 +594,22 @@
                       >
                       <a
                         href=""
-                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 transition-all duration-300 hover:text-[#626060] hover:font-bold"
+                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3  hover:text-[#626060] hover:font-bold"
                         >Body Moisturiser</a
                       >
                       <a
                         href=""
-                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 transition-all duration-300 hover:text-[#626060] hover:font-bold"
+                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3  hover:text-[#626060] hover:font-bold"
                         >Hand care</a
                       ><a
                         href=""
-                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 transition-all duration-300 hover:text-[#626060] hover:font-bold"
+                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3  hover:text-[#626060] hover:font-bold"
                         >Foot care</a
                       >
 
                       <a
                         href=""
-                        class="2xl:no-underline 2xl:text-[#737272] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 transition-all duration-300 hover:text-[#626060] hover:font-bold"
+                        class="2xl:no-underline 2xl:text-[#737272] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3  hover:text-[#626060] hover:font-bold"
                         >Anti-cellulite & Toning</a
                       >
                       <a
@@ -619,22 +619,22 @@
                     >
                       <a
                         href=""
-                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 transition-all duration-300 hover:text-[#626060] hover:font-bold"
+                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3  hover:text-[#626060] hover:font-bold"
                         >Body wash
                       </a>
                       <a
                         href=""
-                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 transition-all duration-300 hover:text-[#626060] hover:font-bold"
+                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3  hover:text-[#626060] hover:font-bold"
                         >Soap</a
                       >
                       <a
                         href=""
-                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 transition-all duration-300 hover:text-[#626060] hover:font-bold"
+                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3  hover:text-[#626060] hover:font-bold"
                         >Body scrub</a
                       >
                       <a
                       href=""
-                      class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 transition-all duration-300 hover:text-[#626060] hover:font-bold"
+                      class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3  hover:text-[#626060] hover:font-bold"
                       >Other bath products</a
                     >
                     </div>
@@ -646,12 +646,12 @@
                       >
                       <a
                         href=""
-                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 transition-all duration-300 hover:text-[#626060] hover:font-bold"
+                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3  hover:text-[#626060] hover:font-bold"
                         >Manicure & Pedicure</a
                       >
                       <a
                         href=""
-                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 transition-all duration-300 hover:text-[#626060] hover:font-bold"
+                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3  hover:text-[#626060] hover:font-bold"
                         >Body sponges & Others</a
                       >
                       <a
@@ -688,28 +688,28 @@
                       >
                       <a
                         href=""
-                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 transition-all duration-300 hover:text-[#626060] hover:font-bold"
+                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3  hover:text-[#626060] hover:font-bold"
                         >Swedish Spa</a
                       >
                       <a
                         href=""
-                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 2xl:transition-all duration-300 hover:text-[#626060] hover:font-bold"
+                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 2xl: hover:text-[#626060] hover:font-bold"
                         >Love Nature</a
                       >
                       <a
                         href=""
-                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 2xl:transition-all duration-300 hover:text-[#626060] hover:font-bold"
+                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 2xl: hover:text-[#626060] hover:font-bold"
                         >Feel good</a
                       >
                       <a
                         href=""
-                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 2xl:transition-all duration-300 hover:text-[#626060] hover:font-bold"
+                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 2xl: hover:text-[#626060] hover:font-bold"
                         >Sun 360</a
                       >
                       
                       <a
                         href=""
-                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 2xl:transition-all duration-300 hover:text-[#626060] hover:font-bold"
+                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 2xl: hover:text-[#626060] hover:font-bold"
                       >
                         Feet Up</a
                       >
@@ -718,15 +718,15 @@
                     </div>
                   </div>
                 </li>
-                <li class="2xl:list-none title2">
+                <li class="2xl:list-none title2 2xl:w-[200px]">
                   <a
                     href=""
-                    class="2xl:grow 2xl:no-underline capitalize 2xl:text-[black] transition-all duration-300 2xl:ps-5 2xl:pt-3 2xl:block hover:bg-zinc-200"
+                    class="2xl:grow 2xl:no-underline capitalize 2xl:text-[black]  2xl:ps-5 2xl:pt-3 2xl:block hover:bg-zinc-200"
                   >
                   hair</a
                   >
                   <div
-                    class="2xl:absolute 2xl:w-[1250px] 2xl:h-[570px]  2xl:right-[0px] 2xl:top-[0px] catalogue 2xl:flex-row 2xl:gap-2 hidden"
+                    class="2xl:absolute 2xl:w-[1250px] 2xl:h-[570px]  2xl:right-[0px] 2xl:top-[0px] 2xl:flex catalogue 2xl:flex-row 2xl:gap-2 invisible"
                   >
                     <div class="2xl:h-full 2xl:w-[200px]">
                       <a
@@ -761,16 +761,16 @@
                 >
                       <a
                         href=""
-                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 transition-all duration-300 hover:text-[#626060] hover:font-bold"
+                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3  hover:text-[#626060] hover:font-bold"
                         >Hair mask</a
                       >
                       <a
                         href=""
-                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 transition-all duration-300 hover:text-[#626060] hover:font-bold"
+                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3  hover:text-[#626060] hover:font-bold"
                         >Leave-in treatment</a
                       ><a
                         href=""
-                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 transition-all duration-300 hover:text-[#626060] hover:font-bold"
+                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3  hover:text-[#626060] hover:font-bold"
                         >Hair oil</a
                       >
 
@@ -787,7 +787,7 @@
                       
                       <a
                         href=""
-                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 transition-all duration-300 hover:text-[#626060] hover:font-bold"
+                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3  hover:text-[#626060] hover:font-bold"
                         >Hair Brushess & Combs</a
                       >
                       <a
@@ -797,28 +797,28 @@
                     >
                       <a
                         href=""
-                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 2xl:transition-all duration-300 hover:text-[#626060] hover:font-bold"
+                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 2xl: hover:text-[#626060] hover:font-bold"
                         >Eleo</a
                       >
                       <a
                         href=""
-                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 2xl:transition-all duration-300 hover:text-[#626060] hover:font-bold"
+                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 2xl: hover:text-[#626060] hover:font-bold"
                         >Beautanicals</a
                       >
                       <a
                         href=""
-                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 2xl:transition-all duration-300 hover:text-[#626060] hover:font-bold"
+                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 2xl: hover:text-[#626060] hover:font-bold"
                         >HairX StyleSmart</a
                       >
                       
                       <a
                         href=""
-                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 2xl:transition-all duration-300 hover:text-[#626060] hover:font-bold"
+                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 2xl: hover:text-[#626060] hover:font-bold"
                       >
                       Milk & Honey Gold</a
                       ><a
                       href=""
-                      class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 2xl:transition-all duration-300 hover:text-[#626060] hover:font-bold"
+                      class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 2xl: hover:text-[#626060] hover:font-bold"
                     >
               Love Nature</a
                     >
@@ -827,15 +827,15 @@
                     </div>
                   </div>
                 </li>
-                <li class="2xl:list-none title2">
+                <li class="2xl:list-none title2 2xl:w-[200px]">
                   <a
                     href=""
-                    class="2xl:grow 2xl:no-underline capitalize 2xl:text-[black] transition-all duration-300 2xl:ps-5 2xl:pt-3 2xl:block hover:bg-zinc-200"
+                    class="2xl:grow 2xl:no-underline capitalize 2xl:text-[black]  2xl:ps-5 2xl:pt-3 2xl:block hover:bg-zinc-200"
                   >
                   accessories</a
                   >
                   <div
-                    class="2xl:absolute 2xl:w-[1250px] 2xl:h-[570px]  2xl:right-[0px] 2xl:top-[0px] catalogue 2xl:flex-row 2xl:gap-2 hidden"
+                    class="2xl:absolute 2xl:w-[1250px] 2xl:h-[570px]  2xl:right-[0px] 2xl:top-[0px] 2xl:flex catalogue 2xl:flex-row 2xl:gap-2 invisible"
                   >
                     <div class="2xl:h-full 2xl:w-[200px]">
                       <a
@@ -856,16 +856,16 @@
                      
                       <a
                         href=""
-                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 transition-all duration-300 hover:text-[#626060] hover:font-bold"
+                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3  hover:text-[#626060] hover:font-bold"
                         >Earrings</a
                       >
                       <a
                         href=""
-                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 transition-all duration-300 hover:text-[#626060] hover:font-bold"
+                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3  hover:text-[#626060] hover:font-bold"
                         >necklaces</a
                       ><a
                         href=""
-                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 transition-all duration-300 hover:text-[#626060] hover:font-bold"
+                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3  hover:text-[#626060] hover:font-bold"
                         >Watches & Others</a
                       >
                       <a
@@ -875,11 +875,11 @@
                     >
                     <a
                     href=""
-                    class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 transition-all duration-300 hover:text-[#626060] hover:font-bold"
+                    class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3  hover:text-[#626060] hover:font-bold"
                     >Bags & Purses</a
                   > <a
                   href=""
-                  class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 transition-all duration-300 hover:text-[#626060] hover:font-bold"
+                  class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3  hover:text-[#626060] hover:font-bold"
                   >Sunglasses</a
                 >
 
@@ -896,13 +896,13 @@
                       
                       <a
                         href=""
-                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 transition-all duration-300 hover:text-[#626060] hover:font-bold"
+                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3  hover:text-[#626060] hover:font-bold"
                         >Gifts for her</a
                       >
                      
                     <a
                     href=""
-                    class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 transition-all duration-300 hover:text-[#626060] hover:font-bold"
+                    class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3  hover:text-[#626060] hover:font-bold"
                     >Gifts for him</a
                   >
                   <a
@@ -912,7 +912,7 @@
                 >
                 <a
                 href=""
-                class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 transition-all duration-300 hover:text-[#626060] hover:font-bold"
+                class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3  hover:text-[#626060] hover:font-bold"
                 >Norrsken</a
               >
                      
@@ -921,15 +921,15 @@
                     </div>
                   </div>
                 </li>
-                <li class="2xl:list-none title2">
+                <li class="2xl:list-none title2 2xl:w-[200px]">
                   <a
                     href=""
-                    class="2xl:grow 2xl:no-underline capitalize 2xl:text-[black] transition-all duration-300 2xl:ps-5 2xl:pt-3 2xl:block hover:bg-zinc-200"
+                    class="2xl:grow 2xl:no-underline capitalize 2xl:text-[black]  2xl:ps-5 2xl:pt-3 2xl:block hover:bg-zinc-200"
                   >
                  Wellness</a
                   >
                   <div
-                    class="2xl:absolute 2xl:w-[1250px] 2xl:h-[570px]  2xl:right-[0px] 2xl:top-[0px] catalogue 2xl:flex-row 2xl:gap-2 hidden"
+                    class="2xl:absolute 2xl:w-[1250px] 2xl:h-[570px]  2xl:right-[0px] 2xl:top-[0px] 2xl:flex catalogue 2xl:flex-row 2xl:gap-2 invisible"
                   >
                     <div class="2xl:h-full 2xl:w-[200px]">
                       <a
@@ -950,40 +950,40 @@
                      
                       <a
                         href=""
-                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 transition-all duration-300 hover:text-[#626060] hover:font-bold"
+                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3  hover:text-[#626060] hover:font-bold"
                         >Shakes</a
                       >
                       <a
                         href=""
-                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 transition-all duration-300 hover:text-[#626060] hover:font-bold"
+                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3  hover:text-[#626060] hover:font-bold"
                         >Soaps</a
                       ><a
                         href=""
-                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 transition-all duration-300 hover:text-[#626060] hover:font-bold"
+                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3  hover:text-[#626060] hover:font-bold"
                         >Vitamins & Minerals</a
                       >
                      
                     <a
                     href=""
-                    class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 transition-all duration-300 hover:text-[#626060] hover:font-bold"
+                    class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3  hover:text-[#626060] hover:font-bold"
                     >Antioxidant</a
                   > 
                   <a
                   href=""
-                  class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 transition-all duration-300 hover:text-[#626060] hover:font-bold"
+                  class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3  hover:text-[#626060] hover:font-bold"
                   >Omega 3</a
                 > <a
                   href=""
-                  class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 transition-all duration-300 hover:text-[#626060] hover:font-bold"
+                  class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3  hover:text-[#626060] hover:font-bold"
                   >Gut health</a
                 >
                 <a
                   href=""
-                  class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 transition-all duration-300 hover:text-[#626060] hover:font-bold"
+                  class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3  hover:text-[#626060] hover:font-bold"
                   >Skin & Hairs</a
                 ><a
                 href=""
-                class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 transition-all duration-300 hover:text-[#626060] hover:font-bold"
+                class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3  hover:text-[#626060] hover:font-bold"
                 >Kids</a
               >
               <a
@@ -1010,7 +1010,7 @@
                       
                       <a
                         href=""
-                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3 transition-all duration-300 hover:text-[#626060] hover:font-bold"
+                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3  hover:text-[#626060] hover:font-bold"
                         >Wellness by Oriflame</a
                       >
                      
@@ -1021,6 +1021,221 @@
                     </div>
                   </div>
                 </li>
+                <li class="2xl:list-none title2 2xl:w-[200px]">
+                  <a
+                    href=""
+                    class="2xl:grow 2xl:no-underline capitalize 2xl:text-[black]  2xl:ps-5 2xl:pt-3 2xl:block hover:bg-zinc-200"
+                  >
+                    Men</a
+                  >
+                  <div
+                    class="2xl:absolute 2xl:w-[1250px] 2xl:h-[570px] 2xl:right-[0px] 2xl:top-[0px] 2xl:flex catalogue 2xl:flex-row 2xl:gap-2 invisible"
+                  >
+                    <div class="2xl:h-full 2xl:w-[200px]">
+                      <a
+                        href=""
+                        class="2xl:no-underline 2xl:text-[black] 2xl:flex 2xl:p-2 2xl:font-semibold 2xl:pb-8"
+                        ><img
+                          class="2xl:block 2xl:text-[black]"
+                          src="./image/svgexport-8.svg"
+                          alt=""
+                        />
+                        What's new
+                      </a>
+                      <a
+                        href=""
+                        class="2xl:no-underline 2xl:text-[black] 2xl:text-[17px] 2xl:block 2xl:ps-4 2xl:pb-3 2xl:font-[600] hover:text-[#626060]"
+                        >Skin care</a
+                      >
+                      <a
+                        href=""
+                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3  hover:text-[#626060] hover:font-bold"
+                        >Cleanser</a
+                      >
+                      <a
+                        href=""
+                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3  hover:text-[#626060] hover:font-bold"
+                        >Moisturisers and treatment</a
+                      >
+                      <a
+                        href=""
+                        class="2xl:no-underline 2xl:text-[black] 2xl:text-[17px] 2xl:block 2xl:ps-4 2xl:pb-3 2xl:font-[600] hover:text-[#626060]"
+                        >Shaving & Grooming</a
+                      ><a
+                        href=""
+                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3  hover:text-[#626060] hover:font-bold"
+                        >Shaving</a
+                      >
+
+                      <a
+                        href=""
+                        class="2xl:no-underline 2xl:text-[#3c3b3b] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3  hover:text-[#626060] hover:font-bold"
+                        >Beard care</a
+                      >
+                      <a
+                        href=""
+                        class="2xl:no-underline 2xl:text-[black] 2xl:text-[17px] 2xl:block 2xl:ps-4 2xl:pb-3 2xl:font-[600] hover:text-[#626060]"
+                        >Body & Shower</a
+                      >
+                      <a
+                        href=""
+                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3  hover:text-[#626060] hover:font-bold"
+                        >Shower Gel
+                      </a>
+                      <a
+                        href=""
+                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3  hover:text-[#626060] hover:font-bold"
+                        >Soap bar</a
+                      >
+                    </div>
+                    <div class="2xl:h-full 2xl:w-[200px]">
+                      <a
+                        href=""
+                        class="2xl:no-underline 2xl:text-[black] 2xl:text-[17px] 2xl:block 2xl:ps-4 2xl:pb-3 2xl:pt-2 2xl:font-[600] hover:text-[#626060]"
+                        >Hair</a
+                      >
+                      <a
+                        href=""
+                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3  hover:text-[#626060] hover:font-bold"
+                        >Shampoo</a
+                      >
+                      <a
+                        href=""
+                        class="2xl:no-underline 2xl:text-[black] 2xl:text-[17px] 2xl:block 2xl:ps-4 2xl:pb-3 2xl:pt-2 2xl:font-[600] hover:text-[#626060]"
+                        >Accessories</a
+                      >
+                      <a
+                        href=""
+                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3  hover:text-[#626060] hover:font-bold"
+                        >Shaving & Grooming</a
+                      >
+
+                      <a
+                        href=""
+                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3  hover:text-[#626060] hover:font-bold"
+                        >Gifts for him</a
+                      >
+                      <a
+                        href=""
+                        class="2xl:no-underline 2xl:text-[black] 2xl:text-[17px] 2xl:block 2xl:ps-4 2xl:pb-3 2xl:pt-2 2xl:font-[600] hover:text-[#626060]"
+                        >Fragrance</a
+                      ><a
+                      href=""
+                      class="2xl:no-underline 2xl:text-[black] 2xl:text-[17px] 2xl:block 2xl:ps-4 2xl:pb-3 2xl:pt-2 2xl:font-[600] hover:text-[#626060]"
+                      >Wellness</a
+                    ><a
+                    href=""
+                    class="2xl:no-underline 2xl:text-[black] 2xl:text-[17px] 2xl:block 2xl:ps-4 2xl:pb-3 2xl:pt-2 2xl:font-[600] hover:text-[#626060]"
+                    >
+                    Deodorants & Anti-perspirants</a
+                  > 
+                     
+                  </div>
+                  <div class="2xl:h-full 2xl:w-[200px]">
+                    <a
+                      href=""
+                      class="2xl:no-underline 2xl:text-[black] 2xl:text-[17px] 2xl:block 2xl:ps-4 2xl:pb-3 2xl:pt-2 2xl:font-[600] hover:text-[#626060]"
+                      >Brands</a
+                    >
+                    <a
+                      href=""
+                      class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3  hover:text-[#626060] hover:font-bold"
+                      >Eclat</a
+                    >
+                  
+                    <a
+                      href=""
+                      class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3  hover:text-[#626060] hover:font-bold"
+                      >Giordani Gold</a
+                    >
+
+                    <a
+                      href=""
+                      class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3  hover:text-[#626060] hover:font-bold"
+                      >North for men</a
+                    >
+                     
+                   
+                </div>
+                </li>
+                <li class="2xl:list-none title2 2xl:w-[200px]">
+                  <a
+                    href=""
+                    class="2xl:grow 2xl:no-underline capitalize 2xl:text-[black]  2xl:ps-5 2xl:pt-3 2xl:block hover:bg-zinc-200"
+                  >
+                    kids & Baby</a
+                  >
+                  <div
+                    class="2xl:absolute 2xl:w-[1250px] 2xl:h-[570px] 2xl:right-[0px] 2xl:top-[0px] 2xl:flex catalogue 2xl:flex-row 2xl:gap-2 invisible"
+                  >
+                    <div class="2xl:h-full 2xl:w-[200px]">
+                      <a
+                        href=""
+                        class="2xl:no-underline 2xl:text-[black] 2xl:flex 2xl:p-2 2xl:font-semibold 2xl:pb-8"
+                        ><img
+                          class="2xl:block 2xl:text-[black]"
+                          src="./image/svgexport-8.svg"
+                          alt=""
+                        />
+                        What's new
+                      </a>
+                      <a
+                        href=""
+                        class="2xl:no-underline 2xl:text-[black] 2xl:text-[17px] 2xl:block 2xl:ps-4 2xl:pb-3 2xl:font-[600] hover:text-[#626060]"
+                        >Kids</a
+                      >
+                      <a
+                        href=""
+                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3  hover:text-[#626060] hover:font-bold"
+                        >Hair & Body Wash</a
+                      >
+                      <a
+                        href=""
+                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3  hover:text-[#626060] hover:font-bold"
+                        >Oral care</a
+                      >
+                      <a
+                      href=""
+                      class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3  hover:text-[#626060] hover:font-bold"
+                      >Fragrance</a
+                    >
+                      <a
+                        href=""
+                        class="2xl:no-underline 2xl:text-[black] 2xl:text-[17px] 2xl:block 2xl:ps-4 2xl:pb-3 2xl:font-[600] hover:text-[#626060]"
+                        >Baby</a
+                      ><a
+                        href=""
+                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3  hover:text-[#626060] hover:font-bold"
+                        >Hair & Body wash</a
+                      >
+
+                     
+                      <a
+                        href=""
+                        class="2xl:no-underline 2xl:text-[black] 2xl:text-[17px] 2xl:block 2xl:ps-4 2xl:pb-3 2xl:font-[600] hover:text-[#626060]"
+                        >Brands</a
+                      >
+                      <a
+                        href=""
+                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3  hover:text-[#626060] hover:font-bold"
+                        >Baby O
+                      </a>
+                      <a
+                        href=""
+                        class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3  hover:text-[#626060] hover:font-bold"
+                        >Love Nature</a
+                      >
+                      <a
+                      href=""
+                      class="2xl:no-underline 2xl:text-[#827f7f] 2xl:block 2xl:text-[17px] 2xl:ps-4 2xl:pb-3  hover:text-[#626060] hover:font-bold"
+                      >Optifresh</a
+                    >
+                    </div>
+                  
+                  
+                </li>
+                <li class="2xl:list-none title2"> <a href="" class="2xl:grow 2xl:no-underline capitalize 2xl:text-[black]  2xl:ps-5 2xl:pt-3 2xl:block hover:text-[#b0afaf]">Novelties</a> </li>
+                <li class="2xl:list-none title2"> <a href="" class="2xl:grow 2xl:no-underline capitalize 2xl:text-[black]  2xl:ps-5 2xl:pt-3 2xl:block hover:text-[#b0afaf]">Beauty Rewards <br> Programme</a> </li>
               </div>
               <div class="main-2 2xl:grow-[8]"></div>
             </div>
@@ -1071,6 +1286,170 @@
           </div>
         </div>
       </nav>
+      <div class="content-image 2xl:w-full 2xl:h-[550px]">
+
+        <img src="./image/contentImage.jpg" class="2xl:w-full 2x:lblock 2x:lrelative 2xl:h-[550px] " alt=""> 
+        <div class="navbar  2xl:absolute bg-[#2D8B94] 2xl:w-full 2xl:h-[60px] 2xl:top-[85px] 2xl:opacity-75"> <a href=" " class="2xl:block 2xl:no-underline  2xl:text-center 2xl:text-[white] 2xl:font-bold 2xl:leading-10 2xl:text-[18px]"> Free Shipping, Rewards & More! Register here</a></div>   
+        </div>
+        <div class="under-menu 2xl:w-full 2xl:h-[55px]  2xl:flex 2xl:flex-row 2xl:gap-20 2xl:justify-center">
+          <a href="" class=" 2xl:no-underline 2xl:text-[#474747] 2xl:flex 2xl:justify-center 2xl:items-center  font-semibold 2xl:capitalize"> <img src="./image/catakogue.svg" alt=""> ECATALOGUE</a>
+          <a href="" class=" font-semibold  2xl:no-underline 2xl:text-[#474747] 2xl:flex 2xl:justify-center 2xl:items-center">SKIN CARE</a><a href="" class=" font-semibold  2xl:no-underline 2xl:text-[#474747] 2xl:flex 2xl:justify-center 2xl:items-center">MAKE-UP</a><a href="" class=" font-semibold  2xl:no-underline 2xl:text-[#474747] 2xl:flex 2xl:justify-center 2xl:items-center">FRAGRANCE</a>
+          <a href="" class="font-semibold  2xl:no-underline 2xl:text-[#474747] 2xl:flex 2xl:justify-center 2xl:items-center">BATH & BODY</a><a href="" class=" font-semibold  2xl:no-underline 2xl:text-[#474747] 2xl:flex 2xl:justify-center 2xl:items-center">HAIR</a><a href="" class=" font-semibold  2xl:no-underline 2xl:text-[#474747] 2xl:flex 2xl:justify-center 2xl:items-center">ACCESSORIES</a><a href="" class=" font-semibold  2xl:no-underline 2xl:text-[#474747] 2xl:flex 2xl:justify-center 2xl:items-center">WELLNESS </a><a href="" class=" font-semibold  2xl:no-underline 2xl:text-[#474747] 2xl:flex 2xl:justify-center 2xl:items-center">MEN</a><a href="" class=" 2xl:no-underline font-semibold  2xl:text-[#474747] 2xl:flex 2xl:justify-center 2xl:items-center">KIDS & BABY</a>
+        </div>
+        <div class="2xl:text-center 2xl:mt-9 2xl:text-[#333333] text-[25px] 2xl:flex 2xl:flex-row 2xl:justify-center 2xl:items-center 2xl:relative"> <h1>what's new</h1> <a class="2xl:absolute 2xl:right-[90px] 2xl:w-[100px] 2xl:h-[40px] 2xl:text-[20px] 2xl:rounded-[23px] 2xl:flex 2xl:p-[3px] 2xl:justify-center 2xl:items-center 2xl:no-underline 2xl:text-[black] 2xl:border-solid border-2 border-[#484848] transition-all delay-200 hover:bg-[#e7e7e7]" href="">VIEW ALL</a> </div>
+        <div class="whatsnew 2xl:w-[1310px] 2xl:h-[400px]  2xl:flex 2xl:flex-row 2xl:justify-between 2xl:mx-auto 2xl:mt-5 2xl:gap-[10px]	">
+          <div class=" 2xl:relative"> <img class="2xl:w-[597px] h-[376px] 2xl:block 2xl:mx-auto 2xl:rounded-[5px] " src="./image/whatsnew.jpg" alt=""> <d class=" 2xl:absolute 2xl:top-[295px] 2xl:right-[300px] 2xl:w-[180px] 2xl:h-[40px] 2xl:rounded-[25px] 2xl:text-[20px] 2xl:font-bold 2xl:p-2 2xl:text-center 2xl:text-[white] transition-all delay-100 hover:opacity-75 bg-[#5d6562]"><a class="no-underline text-[#f9caca] text-center block leading-normal" href="">BROWSE ECATALOGUE</a> </d></div>
+         <a  class="no-underline text-[none] hover:translate-x-6 " href="">  <div class="   2xl:relative bg-[#F4F4F4] 2xl:w-[234px] 2xl:h-[376px] 2xl:rounded-[5px] "> 
+          <div class="2xl:absolute 2xl: w-[45px] 2xl:h-[45px] hover:2xl:w-[48px] hover:h-[48px] hover:rounded-[50px] bg-[#685BC7] 2xl:rounded-[50px] 2xl:flex 2xl:justify-center 2xl:items-center 2xl: top-[8px] 2xl:left-[8px]"><img class="2 2xl:block" src="./image/svgexport-10.svg" alt=""> </div>
+          <div class="2xl:absolute 2xl: w-[45px] 2xl:h-[45px] bg-[#FFFFFF]  hover:2xl:w-[48px] hover:h-[48px] hover:rounded-[50px] 2xl:rounded-[50px] 2xl:flex 2xl:justify-center 2xl:items-center 2xl: bottom-[8px] 2xl:right-[8px] 2xl:top-[170px] shadow-lg shadow-indigo-500/50"><img class="2 2xl:block  " src="./image/svgexport-11.svg" alt=""> </div>
+          <div> <img  class="2xl:w-[234px] 2xl:h-[234px] 2xl:rounded-[5px]  " src="./image/cream1.jpg" alt=""></div>
+          <div class=" 2xl:p-2 2xl:text-[#928f8f] 2xl:mb-3 2xl:text-[12px]"> THE-BODY-EDITION <br> <span class=" 2xl:text-[#5c5c5c] 2xl:text-[16px] ">Anti-Cellulite Body Gel</span> </div>
+          <div class="2xl: font-bold text-[black] 2xl:flex 2xl:flex-row 2xl:p-2 "> £9.99
+             <span class="line-through text-[#928f8f] font-extralight 2xl:ms-4">£17.50</span> 
+           </div>
+           <div class="2xl:ps-1" > 
+            <img class=" 2xl:w-[18px] 2xl:h-[18px] " src="./image/svgexport-13.svg" alt="">
+            <img class=" 2xl:w-[18px] 2xl:h-[18px] " src="./image/svgexport-13.svg" alt="">
+            <img class=" 2xl:w-[18px] 2xl:h-[18px] " src="./image/svgexport-13.svg" alt="">
+            <img class=" 2xl:w-[18px] 2xl:h-[18px] "src="./image/svgexport-13.svg" alt="">
+            <img class=" 2xl:w-[18px] 2xl:h-[18px] " src="./image/svgexport-13.svg" alt="">
+         <span class="text-[gray]">(5)</span>
+           </div>
+        </div>
+        
+      </a>
+      <a  class="no-underline text-[none] hover:translate-x-6 " href="">  <div class="   2xl:relative bg-[#F4F4F4] 2xl:w-[234px] 2xl:h-[376px] 2xl:rounded-[5px] "> 
+        <div class="2xl:absolute 2xl: w-[45px] 2xl:h-[45px] hover:2xl:w-[48px] hover:h-[48px] hover:rounded-[50px] bg-[#685BC7] 2xl:rounded-[50px] 2xl:flex 2xl:justify-center 2xl:items-center 2xl: top-[8px] 2xl:left-[8px]"><img class="2 2xl:block" src="./image/svgexport-10.svg" alt=""> </div>
+        <div class="2xl:absolute 2xl: w-[45px] 2xl:h-[45px] bg-[#FFFFFF]  hover:2xl:w-[48px] hover:h-[48px] hover:rounded-[50px] 2xl:rounded-[50px] 2xl:flex 2xl:justify-center 2xl:items-center 2xl: bottom-[8px] 2xl:right-[8px] 2xl:top-[170px] shadow-lg shadow-indigo-500/50"><img class="2 2xl:block  " src="./image/svgexport-11.svg" alt=""> </div>
+        <div> <img  class="2xl:w-[234px] 2xl:h-[234px] 2xl:rounded-[5px]  " src="./image/cream2.jpg" alt=""></div>
+        <div class=" 2xl:p-2 2xl:text-[#928f8f] 2xl:mb-3 2xl:text-[12px]"> THE-BODY-EDITION <br> <span class=" 2xl:text-[#5c5c5c] 2xl:text-[16px] ">Smoothing Body Scrub</span> </div>
+        <div class="2xl: font-bold text-[black] 2xl:flex 2xl:flex-row 2xl:p-2 "> £9.99
+           <span class="line-through text-[#928f8f] font-extralight 2xl:ms-4">£10.50</span> 
+         </div>
+         <div class="2xl:ps-1" > 
+          <img class=" 2xl:w-[18px] 2xl:h-[18px] " src="./image/svgexport-13.svg" alt="">
+          <img class=" 2xl:w-[18px] 2xl:h-[18px] " src="./image/svgexport-13.svg" alt="">
+          <img class=" 2xl:w-[18px] 2xl:h-[18px] " src="./image/svgexport-13.svg" alt="">
+          <img class=" 2xl:w-[18px] 2xl:h-[18px] "src="./image/svgexport-13.svg" alt="">
+          <img class=" 2xl:w-[18px] 2xl:h-[18px] " src="./image/svgexport-13.svg" alt="">
+       <span class="text-[gray]">(5)</span>
+         </div>
+      </div>
+      
+    </a>
+    <a  class="no-underline text-[none] hover:translate-x-6 " href="">  <div class="   2xl:relative bg-[#F4F4F4] 2xl:w-[234px] 2xl:h-[376px] 2xl:rounded-[5px] "> 
+      <div class="2xl:absolute 2xl: w-[45px] 2xl:h-[45px] hover:2xl:w-[48px] hover:h-[48px] hover:rounded-[50px] bg-[#685BC7] 2xl:rounded-[50px] 2xl:flex 2xl:justify-center 2xl:items-center 2xl: top-[8px] 2xl:left-[8px]"><img class="2 2xl:block" src="./image/svgexport-10.svg" alt=""> </div>
+      <div class="2xl:absolute 2xl: w-[45px] 2xl:h-[45px] bg-[#FFFFFF]  hover:2xl:w-[48px] hover:h-[48px] hover:rounded-[50px] 2xl:rounded-[50px] 2xl:flex 2xl:justify-center 2xl:items-center 2xl: bottom-[8px] 2xl:right-[8px] 2xl:top-[170px] shadow-lg shadow-indigo-500/50"><img class="2 2xl:block  " src="./image/svgexport-11.svg" alt=""> </div>
+      <div> <img  class="2xl:w-[234px] 2xl:h-[234px] 2xl:rounded-[5px]  " src="./image/mask.jpg" alt=""></div>
+      <div class=" 2xl:p-2 2xl:text-[#928f8f]  2xl:text-[12px]"> LOVE NATURE <br> <span class=" 2xl:text-[#5c5c5c] 2xl:text-[16px] capitalize "> Avocado Cream Face Mask with <br> Organic Avocado Oil</span> </div>
+      <div class="2xl: font-bold text-[black] 2xl:flex 2xl:flex-row 2xl:p-2 "> £1.99
+         <span class="line-through text-[#928f8f] font-extralight 2xl:ms-4">£3.50</span> 
+       </div>
+       <div class="2xl:ps-1" > 
+        <img class=" 2xl:w-[18px] 2xl:h-[18px] " src="./image/svgexport-13.svg" alt="">
+        <img class=" 2xl:w-[18px] 2xl:h-[18px] " src="./image/svgexport-13.svg" alt="">
+        <img class=" 2xl:w-[18px] 2xl:h-[18px] " src="./image/svgexport-13.svg" alt="">
+        <img class=" 2xl:w-[18px] 2xl:h-[18px] "src="./image/svgexport-13.svg" alt="">
+        <img class=" 2xl:w-[18px] 2xl:h-[18px] " src="./image/svgexport-13.svg" alt="">
+     <span class="text-[gray]">(5)</span>
+       </div>
+    </div>
+    
+  </a>
+        </div>
+        <div class="2xl:text-center 2xl:mt-9 2xl:text-[#333333] text-[25px] 2xl:flex 2xl:flex-row 2xl:justify-center 2xl:items-center 2xl:relative"> <h1>what's new</h1> <a class="2xl:absolute 2xl:right-[90px] 2xl:w-[100px] 2xl:h-[40px] 2xl:text-[20px] 2xl:rounded-[23px] 2xl:flex 2xl:p-[3px] 2xl:justify-center 2xl:items-center 2xl:no-underline 2xl:text-[black] 2xl:border-solid border-2 border-[#484848] transition-all delay-200 hover:bg-[#e7e7e7]" href="">VIEW ALL</a> </div>
+        <div class="whatsnew 2xl:w-[1310px] 2xl:h-[400px]  2xl:flex 2xl:flex-row 2xl:justify-between 2xl:mx-auto 2xl:mt-5 2xl:gap-[1px]	">
+         
+         <a  class="no-underline text-[none] transition-all delay-75 hover:shadow-xl hover:shadow-slate-600 " href="">  <div class="   2xl:relative bg-[#F4F4F4] 2xl:w-[234px] 2xl:h-[376px] 2xl:rounded-[5px] "> 
+          
+          <div class="2xl:absolute 2xl: w-[45px] 2xl:h-[45px] bg-[#FFFFFF]  hover:2xl:w-[48px] hover:h-[48px] hover:rounded-[50px] 2xl:rounded-[50px] 2xl:flex 2xl:justify-center 2xl:items-center 2xl: bottom-[8px] 2xl:right-[8px] 2xl:top-[170px] shadow-lg shadow-indigo-500/50"><img class="2 2xl:block  " src="./image/svgexport-11.svg" alt=""> </div>
+          <div> <img  class="2xl:w-[234px] 2xl:h-[234px] 2xl:rounded-[5px]  " src="./image/pink1.jpg" alt=""></div>
+          <div class=" 2xl:p-2 2xl:text-[#7c7c7c] 2xl:mb-3 2xl:text-[12px]"> P O S S E S S <br> <span class=" 2xl:text-[#5c5c5c] 2xl:text-[16px] ">Eau de Parfum</span> </div>
+          <div class="2xl: font-bold text-[black] 2xl:flex 2xl:flex-row 2xl:p-2 "> £25.99
+             <span class="line-through text-[#928f8f] font-extralight 2xl:ms-4">£46.00</span> 
+           </div>
+           <div class="2xl:ps-1" > 
+            <img class=" 2xl:w-[18px] 2xl:h-[18px] " src="./image/svgexport-13.svg" alt="">
+            <img class=" 2xl:w-[18px] 2xl:h-[18px] " src="./image/svgexport-13.svg" alt="">
+            <img class=" 2xl:w-[18px] 2xl:h-[18px] " src="./image/svgexport-13.svg" alt="">
+            <img class=" 2xl:w-[18px] 2xl:h-[18px] "src="./image/svgexport-13.svg" alt="">
+            <img class=" 2xl:w-[18px] 2xl:h-[18px] " src="./image/svgexport-13.svg" alt="">
+         <span class="text-[gray]">(4.6)</span>
+           </div>
+        </div>
+        
+      </a>
+      <a  class="no-underline text-[none] transition-all delay-150 hover:shadow-xl hover:shadow-slate-600" href="">  <div class="   2xl:relative bg-[#F4F4F4] 2xl:w-[234px] 2xl:h-[376px] 2xl:rounded-[5px] "> 
+      
+        <div class="2xl:absolute 2xl: w-[45px] 2xl:h-[45px] bg-[#FFFFFF]  hover:2xl:w-[48px] hover:h-[48px] hover:rounded-[50px] 2xl:rounded-[50px] 2xl:flex 2xl:justify-center 2xl:items-center 2xl: bottom-[8px] 2xl:right-[8px] 2xl:top-[170px] shadow-lg shadow-indigo-500/50"><img class="2 2xl:block  " src="./image/svgexport-11.svg" alt=""> </div>
+        <div> <img  class="2xl:w-[234px] 2xl:h-[234px] 2xl:rounded-[5px]  " src="./image/pink2.jpg" alt=""></div>
+        <div class=" 2xl:p-2 2xl:text-[#928f8f] 2xl:mb-3 2xl:text-[12px]"> THE ONE <br> <span class=" 2xl:text-[#5c5c5c] 2xl:text-[16px] ">Colour Unlimited Eye Shadow</span> </div>
+        <div class="2xl: font-bold text-[black] 2xl:flex 2xl:flex-row 2xl:p-2 "> £6.99
+           <span class="line-through text-[#928f8f] font-extralight 2xl:ms-4">£12.50</span> 
+         </div>
+         <div class="2xl:ps-1" > 
+          <img class=" 2xl:w-[18px] 2xl:h-[18px] " src="./image/svgexport-13.svg" alt="">
+          <img class=" 2xl:w-[18px] 2xl:h-[18px] " src="./image/svgexport-13.svg" alt="">
+          <img class=" 2xl:w-[18px] 2xl:h-[18px] " src="./image/svgexport-13.svg" alt="">
+          <img class=" 2xl:w-[18px] 2xl:h-[18px] "src="./image/svgexport-13.svg" alt="">
+          <img class=" 2xl:w-[18px] 2xl:h-[18px] " src="./image/svgexport-13.svg" alt="">
+       <span class="text-[gray]">(5)</span>
+         </div>
+      </div>
+      
+    </a>
+    <a  class="no-underline text-[none] transition-all delay-150 hover:shadow-xl hover:shadow-slate-600 " href="">  <div class="   2xl:relative bg-[#F4F4F4] 2xl:w-[234px] 2xl:h-[376px] 2xl:rounded-[5px] "> 
+      
+      <div class="2xl:absolute 2xl: w-[45px] 2xl:h-[45px] bg-[#FFFFFF]  hover:2xl:w-[48px] hover:h-[48px] hover:rounded-[50px] 2xl:rounded-[50px] 2xl:flex 2xl:justify-center 2xl:items-center 2xl: bottom-[8px] 2xl:right-[8px] 2xl:top-[170px] shadow-lg shadow-indigo-500/50"><img class="2 2xl:block  " src="./image/svgexport-11.svg" alt=""> </div>
+      <div> <img  class="2xl:w-[234px] 2xl:h-[234px] 2xl:rounded-[5px]  " src="./image/pink3.jpg" alt=""></div>
+      <div class=" 2xl:p-2 2xl:text-[#928f8f]  2xl:text-[12px]"> FEET UP <br> <span class=" 2xl:text-[#5c5c5c] 2xl:text-[16px] capitalize "> Advanced 36H Odour Control Anti-perspirant Foot Spray</span> </div>
+      <div class="2xl: font-bold text-[black] 2xl:flex 2xl:flex-row 2xl:p-2 "> £1.99
+         <span class="line-through text-[#928f8f] font-extralight 2xl:ms-4">£3.50</span> 
+       </div>
+       <div class="2xl:ps-1" > 
+        <img class=" 2xl:w-[18px] 2xl:h-[18px] " src="./image/svgexport-13.svg" alt="">
+        <img class=" 2xl:w-[18px] 2xl:h-[18px] " src="./image/svgexport-13.svg" alt="">
+        <img class=" 2xl:w-[18px] 2xl:h-[18px] " src="./image/svgexport-13.svg" alt="">
+        <img class=" 2xl:w-[18px] 2xl:h-[18px] "src="./image/svgexport-13.svg" alt="">
+        <img class=" 2xl:w-[18px] 2xl:h-[18px] " src="./image/svgexport-13.svg" alt="">
+     <span class="text-[gray]">(5)</span>
+       </div>
+    </div>
+    
+  </a>
+  <a  class="no-underline text-[none] transition-all delay-150 hover:shadow-xl hover:shadow-slate-600 " href="">  <div class="   2xl:relative bg-[#F4F4F4] 2xl:w-[234px] 2xl:h-[376px] 2xl:rounded-[5px] "> 
+   
+    <div class="2xl:absolute 2xl: w-[45px] 2xl:h-[45px] bg-[#FFFFFF]  hover:2xl:w-[48px] hover:h-[48px] hover:rounded-[50px] 2xl:rounded-[50px] 2xl:flex 2xl:justify-center 2xl:items-center 2xl: bottom-[8px] 2xl:right-[8px] 2xl:top-[170px] shadow-lg shadow-indigo-500/50"><img class="2 2xl:block  " src="./image/svgexport-11.svg" alt=""> </div>
+    <div> <img  class="2xl:w-[234px] 2xl:h-[234px] 2xl:rounded-[5px]  " src="./image/pink4.jpg" alt=""></div>
+    <div class=" 2xl:p-2 2xl:text-[#928f8f]  2xl:text-[12px]"> LOVE NATURE <br> <span class=" 2xl:text-[#5c5c5c] 2xl:text-[16px] capitalize "> Avocado Cream Face Mask with <br> Organic Avocado Oil</span> </div>
+    <div class="2xl: font-bold text-[black] 2xl:flex 2xl:flex-row 2xl:p-2 "> £1.99
+       <span class="line-through text-[#928f8f] font-extralight 2xl:ms-4">£3.50</span> 
+     </div>
+     <div class="2xl:ps-1" > 
+      <img class=" 2xl:w-[18px] 2xl:h-[18px] " src="./image/svgexport-13.svg" alt="">
+      <img class=" 2xl:w-[18px] 2xl:h-[18px] " src="./image/svgexport-13.svg" alt="">
+      <img class=" 2xl:w-[18px] 2xl:h-[18px] " src="./image/svgexport-13.svg" alt="">
+      <img class=" 2xl:w-[18px] 2xl:h-[18px] "src="./image/svgexport-13.svg" alt="">
+      <img class=" 2xl:w-[18px] 2xl:h-[18px] " src="./image/svgexport-13.svg" alt="">
+   <span class="text-[gray]">(5)</span>
+     </div>
+  </div>
+  
+<div class="2xl:relative "><a  class="no-underline text-[none] " href=""> 
+   <img class="rounded-[5px]" src="./image/pink.jpg" alt=""> 
+     <div class="pink-text 2xl:absolute 2xl:w-[240px] 2xl:h-[92px]  2xl:top-[290px] 2xl:right-[27px] 2xl:text-center text-[white] "><h1>BEST OFFERS <br> SELECTION</h1> </div>
+     <div class="pink-text transition-all delay-75 2xl:absolute 2xl:w-[150px] 2xl:h-[50px]  2xl:rounded-[50px] bg-[#afa3a5] 2xl:top-[370px] 2xl:right-[70px] 2xl:text-center text-[white] flex justify-center items-center hover:bg-[#DEA4AB] "><h2>SHOP NOW </h2> </div>
+     
+  
+</a>
+        </div>
+      </div>
+      <div class="power-up 2xl:w-[1300px] 2xl:h-[433px] bg-[blue] 2xl:flex 2xl:mx-auto 2xl:mt-[100px] ">
+        <div class="2xl:grow-[1]"> <img src="./image/contentImage3.jpg" alt=""></div>
+        <div class="2xl:grow-[1]">sa</div>
+      </div>
+  
+        
     </div>
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
     <script>
